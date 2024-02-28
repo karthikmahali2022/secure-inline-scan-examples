@@ -10,7 +10,7 @@ variables:
   REGISTRY_HOST: "quay.io"
   IMAGE_NAME: "karthikmahali/sysdigpoc1001 "
   IMAGE_TAG: "latest"
-  REGISTRY_CONNECTION: "quayio-karthikmahali"
+  REGISTRY_CONNECTION: "karthikmahali"
 
 steps:
 
