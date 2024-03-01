@@ -7,10 +7,10 @@ pool:
 variables:
   CACHE_FOLDER: $(Pipeline.Workspace)/cache/
   SYSDIG_SECURE_ENDPOINT: "https://eu1.app.sysdig.com"
-  REGISTRY_HOST: "quay.io"
+  REGISTRY_HOST: "https://quay.io"
   IMAGE_NAME: "karthikmahali/sysdigpoc1001 "
   IMAGE_TAG: "latest"
-  REGISTRY_CONNECTION: "karthikmahali"
+  REGISTRY_CONNECTION: "quay"
 
 steps:
 
